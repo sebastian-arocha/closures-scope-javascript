@@ -2,7 +2,7 @@
 
 - En este curso aprenderemos los conceptos esenciales del Scope y los Closures en JavaScript
 
-# Módulo 1 Scope
+# Módulo 1 - Scope
 
 - **1: ¿Qué es el Scope?**
 
@@ -21,3 +21,7 @@
 - **4: SCOPE LOCAL: Function Scope y Block Scope**
 
   Function Scope es el alcance que tienen las variables locales dentro de una función, incluso dependiendo del tipo de variables se le pueden reasignar su valor dentro de la misma función. Cuando trabajamos con variables dentro funciones es recomendable no usar la palabra reservada **_var_** porque esto puede crear errores en nuestro proyecto redeclarando las variables, es mucho más recomendable usar **_let_** y **_const_** ya que así garantizamos el buen funcionamiento de nuestro código
+
+  El Block Scope ocurre cuando utilizamos las variables let y const dentro de un bloque de código, estas solo existen dentro del bloque de código donde fueron declaradas y si la llamamos desde el scope de funciones o el scope global no podremos acceder a ellas. Lo que no ocurre con var, ya que var funciona como una variable global dentro del scope de función, y si está en un bloque de código igual se puede llamar desde fuera.
+
+# Módulo 2 - Closures
