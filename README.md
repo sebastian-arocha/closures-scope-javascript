@@ -24,4 +24,6 @@
 
   El Block Scope ocurre cuando utilizamos las variables let y const dentro de un bloque de código, estas solo existen dentro del bloque de código donde fueron declaradas y si la llamamos desde el scope de funciones o el scope global no podremos acceder a ellas. Lo que no ocurre con var, ya que var funciona como una variable global dentro del scope de función, y si está en un bloque de código igual se puede llamar desde fuera.
 
+##
+
 # Módulo 2 - Closures
