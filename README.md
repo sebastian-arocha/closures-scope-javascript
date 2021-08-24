@@ -39,3 +39,17 @@
   Entender cómo funcionan el ámbito léxico dentro de los closures nos permite saber que dependiendo de como fueron declaradas las variables es que se van a ejecutar, también con esto podemos utilizar guardar las funciones en otras variables que pueden realizar la misma tarea pero con diferente finalidad.
 
 - **3: Variables privadas en los Closures**
+
+  Gracias a los closures podemos acceder a ciertos valores que solo pueden ser accedidos por medio de métodos y que no estarán disponibles fuera del scope de la función.
+
+- **4: Loops**
+
+  A la hora de hacer closure debemos cuidar la forma en la que declaramos nuestras variables globales ya que esto afecta al alcance y al ámbito léxico dentro de la función, por lo tanto si usamos var podemos llegar a tener errores que se salgan de nuestras manos.
+
+##
+
+# Módulo 3 - Hoisting
+
+- **1: Hoisting**
+
+  El hoisting es el "levantamiento" de las declaraciones. Esto ocurre al utilizar la palabra reservada var y function, con let y const no ocurre. La forma en que sucede esto es que el compilador de JavaScript al detectar que una variable es llamada en una parte del código aun cuando no ha sido inicializada, la declara invisiblemente y le asigna el valor de undefined.
