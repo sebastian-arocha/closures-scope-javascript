@@ -2,6 +2,8 @@
 
 - En este curso aprenderemos los conceptos esenciales del Scope y los Closures en JavaScript
 
+##
+
 # Módulo 1 - Scope
 
 - **1: ¿Qué es el Scope?**
@@ -27,3 +29,13 @@
 ##
 
 # Módulo 2 - Closures
+
+- **1: ¿Qué es un Closure?**
+
+  Un closure es la combinación de una función y el ámbito léxico en el cual ha sido declarada la función, es decir, un closure recuerda en el ámbito el cual ha sido creado.
+
+- **2: Ámbito Léxico dentro de los Closures**
+
+  Entender cómo funcionan el ámbito léxico dentro de los closures nos permite saber que dependiendo de como fueron declaradas las variables es que se van a ejecutar, también con esto podemos utilizar guardar las funciones en otras variables que pueden realizar la misma tarea pero con diferente finalidad.
+
+- **3: Variables privadas en los Closures**
