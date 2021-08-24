@@ -53,3 +53,17 @@
 - **1: Hoisting**
 
   El hoisting es el "levantamiento" de las declaraciones. Esto ocurre al utilizar la palabra reservada var y function, con let y const no ocurre. La forma en que sucede esto es que el compilador de JavaScript al detectar que una variable es llamada en una parte del código aun cuando no ha sido inicializada, la declara invisiblemente y le asigna el valor de undefined.
+
+##
+
+# Módulo 4 - Debugging
+
+- **1: Debugging**
+
+  Una de las herramientas más valiosas que tenemos como desarrolladores son las DevTools, estas funcionan tanto en Chrome, Edge y Firefox, estas herramientas nos permiten hacer debugging, que en pocas palabras es buscar aquellos errores en nuestro código para corregirlos y saber como está ejecutandose nuestro código. Para ello, utilizamos la palabra reservada debugger en la parte del código que le indicará al navegador que en ese punto iniciará el debugging.
+
+##
+
+# Fin
+
+##
