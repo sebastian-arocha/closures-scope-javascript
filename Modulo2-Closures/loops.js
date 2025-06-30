@@ -33,7 +33,7 @@ anotherFunction();
 //que solamente lo imprimía, en cambio con let el closure si recuerda
 //en el bloque que fue declarada. Y por ende la ejecuta correctamente.
 
-const anotherFunction = () => {
+const anotherFunctionLet = () => {
   for (let i = 0; i < 10; i++) {
     setTimeout(() => {
       console.log(i);
@@ -41,7 +41,7 @@ const anotherFunction = () => {
   }
 };
 
-anotherFunction();
+anotherFunctionLet();
 
 // 0
 // 1
